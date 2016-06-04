@@ -1,0 +1,1 @@
+<?php namespace Maras\Contracts;interface LogsRepositoryInterface{    public function insertMemberLoginLogs($user, $ip, $time_at);}

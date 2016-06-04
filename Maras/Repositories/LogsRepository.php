@@ -1,0 +1,1 @@
+<?php namespace Maras\Repositories;use Maras\Contracts\LogsRepositoryInterface;class LogsRepository implements LogsRepositoryInterface{    public function insertMemberLoginLogs($user, $ip, $time_at)    {        echo 'insert user:'. $user .' IP:'. $ip . ' Time:'.$time_at;    }}
